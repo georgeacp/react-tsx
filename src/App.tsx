@@ -5,6 +5,7 @@ import { AppProvider } from "./context/AppProvider";
 
 const App = () => {
   const url = import.meta.env.VITE_BASE_URL;
+  console.log(url);
   return (
     <>
       <AppProvider>
